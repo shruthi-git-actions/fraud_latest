@@ -1,0 +1,7 @@
+params:
+  C: 1.0
+  kernel: 'linear'
+  degree: 3
+  gamma: 'auto'	
+
+
