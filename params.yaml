@@ -1,5 +1,5 @@
 params:
- C: 1.0
- kernel: 'linear'
- degree: 3
- gamma: 'auto'
+  C: 2.0
+  kernel: linear
+  degree: 3
+  gamma: auto
