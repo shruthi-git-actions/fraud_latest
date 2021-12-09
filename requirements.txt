@@ -1,0 +1,10 @@
+pandas
+numpy
+nltk
+sklearn
+collections
+matplotlib
+pickle
+csv
+dvc
+yaml
