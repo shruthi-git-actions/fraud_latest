@@ -7,3 +7,4 @@ matplotlib
 dvc[all]
 pydrive2
 pyyaml
+gdrivefs
