@@ -19,9 +19,9 @@ import pickle
 from sklearn.metrics import confusion_matrix
 
 
-x_test = pd.read_csv('Output/x_test.csv')
+x_test = pd.read_csv('Data/x_test.csv')
 x_test = x_test.iloc[1: , :]
-y_test = pd.read_csv('Output/y_test.csv')
+y_test = pd.read_csv('Data/y_test.csv')
 x_test = x_test.iloc[: , 1:]
 y_test=y_test.iloc[: , 1:]
 Pkl_Filename = "Models/Fraud_SVM.pkl"  
