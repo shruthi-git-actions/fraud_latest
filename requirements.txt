@@ -1,9 +1,11 @@
 pandas==0.24.2
 numpy==1.19.5
 nltk==3.6.5
+oauth2client==3.0.0
 scikit-learn==0.24.2
 matplotlib==3.3.4
 dvc[all]==2.3.0
 pydrive2==1.8.3
 pyyaml==5.4.1
+collection
 gdrivefs==0.14.13
