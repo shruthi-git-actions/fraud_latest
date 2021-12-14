@@ -1,4 +1,4 @@
-setuptools
+ez_setup
 pandas==0.24.2
 numpy==1.19.5
 nltk==3.6.5
