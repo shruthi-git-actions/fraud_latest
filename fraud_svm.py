@@ -33,7 +33,9 @@ import yaml
 
 
 # %%
-train_df_path= dvc.api.get_url('Data/creditcard.csv')
+train_df_path= dvc.api.get_url('Data/creditcard.csv',
+                               repo='https://github.com/shruthi-git-actions/fraud_latest.git',
+                               remote='remote')
 #train_df_path = "Data/creditcard.csv"
 data_fraud = pd.read_csv(train_df_path)
 params = yaml.safe_load(open("params.yaml"))["params"]
